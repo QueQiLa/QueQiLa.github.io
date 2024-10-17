@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Table Overlay</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+        .background-image {
+            width: 100%;
+            height: 100vh;
+            background-image: url('bright34.JPG'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+        }
+        table {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-collapse: collapse;
+        }
+        td {
+            width: 100px;
+            height: 100px;
+            text-align: center;
+        }
+        button {
+            width: 100%;
+            height: 100%;
+            border: none;
+            background-color: rgba(255, 255, 255, 0.8);
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: rgba(255, 255, 255, 1);
+        }
+    </style>
+</head>
+<body> <h1>THURSDAY</h1>
+    <div class="background-image"></div>
+    
+    <table>
+        <tr>
+            <td><button onclick="window.location.href='brightprofile.JPG'">1</button></td>
+            <td><button onclick="window.location.href='image2.jpg'">2</button></td>
+            <td><button onclick="window.location.href='image3.jpg'">3</button></td>
+            <td><button onclick="window.location.href='image4.jpg'">4</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="window.location.href='image5.jpg'">5</button></td>
+            <td><button onclick="window.location.href='image6.jpg'">6</button></td>
+            <td><button onclick="window.location.href='image7.jpg'">7</button></td>
+            <td><button onclick="window.location.href='image8.jpg'">8</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="window.location.href='image9.jpg'">9</button></td>
+            <td><button onclick="window.location.href='image10.jpg'">10</button></td>
+            <td><button onclick="window.location.href='image11.jpg'">11</button></td>
+            <td><button onclick="window.location.href='image12.jpg'">12</button></td>
+        </tr>
+        <tr>
+            <td><button onclick="window.location.href='image13.jpg'">13</button></td>
+            <td><button onclick="window.location.href='image1.jpg'">14</button></td>
+            <td><button onclick="window.location.href='staircase.JPG'">15</button></td>
+            <td><button onclick="window.location.href='FP.jpg'">16</button></td>
+        </tr>
+    </table>
+</body>
+</html>
